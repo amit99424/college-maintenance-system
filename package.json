@@ -1,8 +1,7 @@
 {
   "scripts": {
-    "start": "cd college-maintenance && npm start"
-  },
-  "dependencies": {
-    "firebase": "^12.1.0"
-  }
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start"
+}
 }
