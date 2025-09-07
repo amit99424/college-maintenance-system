@@ -1,7 +1,11 @@
 {
+  "name": "root",
   "scripts": {
-  "dev": "next dev",
-  "build": "next build",
-  "start": "next start"
-}
+    "dev": "cd college-maintenance && npm run dev",
+    "build": "cd college-maintenance && npm run build",
+    "start": "cd college-maintenance && npm run start"
+  },
+  "dependencies": {
+    "firebase": "^12.1.0"
+  }
 }
